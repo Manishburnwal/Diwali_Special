@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500">
+<defs><linearGradient id="plate" x2="0" y2="1"><stop stop-color="#ffe3a0"/><stop offset="1" stop-color="#9a531b"/></linearGradient></defs>
+<ellipse cx="350" cy="280" rx="275" ry="155" fill="url(#plate)" stroke="#f9d58a" stroke-width="12"/>
+<ellipse cx="350" cy="270" rx="230" ry="120" fill="#4a1a18" stroke="#f8d98e" stroke-width="7"/>
+<circle cx="350" cy="270" r="70" fill="#c37a2a" stroke="#ffe6a6" stroke-width="6"/>
+<path d="M350 160 C305 220 335 240 350 250 C370 220 390 195 350 160Z" fill="#ffb12e"/>
+<path d="M350 185 C330 220 345 232 352 237 C365 215 365 202 350 185Z" fill="#fff4bd"/>
+<g fill="#f4c75e"><circle cx="170" cy="260" r="22"/><circle cx="530" cy="260" r="22"/><circle cx="260" cy="350" r="18"/><circle cx="440" cy="350" r="18"/></g>
+</svg>

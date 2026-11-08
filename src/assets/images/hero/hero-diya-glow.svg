@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440">
+<defs>
+ <radialGradient id="flame"><stop stop-color="#fff9c4"/><stop offset=".4" stop-color="#ffd35c"/><stop offset="1" stop-color="#ff7a18" stop-opacity=".05"/></radialGradient>
+ <linearGradient id="bowl" x2="0" y2="1"><stop stop-color="#ffe6a0"/><stop offset=".35" stop-color="#c8872d"/><stop offset="1" stop-color="#5b260e"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<ellipse cx="300" cy="340" rx="210" ry="40" fill="#ff9c26" opacity=".24" filter="url(#blur)"/>
+<ellipse cx="300" cy="160" rx="70" ry="125" fill="url(#flame)" opacity=".55" filter="url(#blur)"/>
+<path d="M300 45 C220 145 270 190 300 215 C340 175 380 120 300 45Z" fill="#ff9e27"/>
+<path d="M300 90 C270 150 290 178 302 190 C322 160 330 130 300 90Z" fill="#fff4b0"/>
+<path d="M105 260 Q300 340 495 260 Q470 385 300 390 Q130 385 105 260Z" fill="url(#bowl)" stroke="#f3c56c" stroke-width="8"/>
+<ellipse cx="300" cy="260" rx="195" ry="50" fill="#8a4519" stroke="#f6cf7d" stroke-width="9"/>
+<path d="M130 278 Q300 330 470 278" fill="none" stroke="#ffdf91" stroke-width="5" opacity=".8"/>
+<path d="M210 315 Q300 345 390 315" fill="none" stroke="#f9d27d" stroke-width="4"/>
+</svg>
